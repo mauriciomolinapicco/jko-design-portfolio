@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/flowbite@1.7.1/dist/flowbite.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="absolute w-full z-20 mt-8">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-bold">JKO Design</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="text-white hover:text-gray-300">Inicio</a>
+                <a href="#" class="text-white hover:text-gray-300">Sobre mim</a>
+                <a href="#" class="text-white hover:text-gray-300">Servicos</a>
+                <a href="#" class="text-white hover:text-gray-300">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="casa_exemplo.png" alt="Background Image" class="object-cover object-center w-full h-full" />
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+        </div>
+        
+        <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
+            <h1 class="text-5xl font-bold leading-tight mb-4">Aqui vai o titulo</h1>
+            <p class="text-lg text-gray-300 mb-8">Segundo titulo aqui.</p>
+            <a href="https://wa.me/554384233952" class="bg-white text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Contato</a>
+        </div>
+    </div>
+    
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/554384233952" target="_blank" class="fixed bottom-4 right-4 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300 ease-in-out">
+        <i class="fab fa-whatsapp fa-2x"></i>
+    </a>
+    
+
+    <!-- Footer -->
+    <footer class="shadow bg-gray-900">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <!--<img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" /> -->
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">JKO Design</span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-400">
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6 mr-4">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6 mr-4">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6 mr-4">Licensing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
+            <span class="block text-sm sm:text-center text-gray-400">© 2024 <a href="#" class="hover:underline">JKO Design™</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+</body>
+</html>
