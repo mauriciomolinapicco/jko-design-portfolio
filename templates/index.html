@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="output.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     
 </head>
 <body>
@@ -17,7 +20,7 @@
             <div class="hidden md:flex space-x-6">
                 <a href="#" class="text-white hover:text-gray-300">Inicio</a>
                 <a href="#" class="text-white hover:text-gray-300">Sobre mim</a>
-                <a href="#" class="text-white hover:text-gray-300">Servicos</a>
+                <a href="#" class="text-white hover:text-gray-300">Portfolio</a>
                 <a href="#" class="text-white hover:text-gray-300">Contato</a>
             </div>
         </div>
@@ -31,9 +34,9 @@
         </div>
         
         <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
-            <h1 class="text-5xl font-bold leading-tight mb-4">Aqui vai o titulo</h1>
-            <p class="text-lg text-gray-300 mb-8">Segundo titulo aqui.</p>
-            <a href="https://wa.me/554384233952" class="bg-branco text-gray-900 hover:bg-bege py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Contato</a>
+            <h1 class="text-7xl font-bold leading-tight mb-4">Transforme suas visoes em realidade</h1>
+            <p class="text-2xl text-gray-300 mb-8">De vida ao seus projetos com nossas solucoes de modelagem 3D e renderizacao</p>
+            <a href="https://wa.me/554384233952" class="bg-branco hover:text-branco text-gray-900 hover:bg-bege py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Faca um orcamento</a>
         </div>
         
         <!-- Flecha -->
@@ -44,28 +47,9 @@
         </div>
     </div>
     
-    <!-- B&W picture -->
-    <div class="bg-gray-200 p-6 rounded-lg shadow-md">
-        <div class="flex items-center">
-            <!-- Imagen -->
-            <img 
-                id="byn-foto"
-                class="w-1/3 h-auto transition duration-300 ease-in-out rounded-lg cursor-pointer filter grayscale hover:grayscale-0" 
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png" 
-                alt="Imagem"
-            />
-    
-            <!-- Texto -->
-            <div class="ml-6">
-                <h2 class="text-2xl font-semibold mb-2">blahblahblahblah</h2>
-                <p class="text-gray-700 mr-6">blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahbla hblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p>
-            </div>
-        </div>
-    </div>
-    
 
     <!-- Reveal photos -->
-    <div class="bg-gray-700 p-4 flex">
+    <div class="bg-preto p-4 flex">
         <!-- Div de la mitad izquierda con título y subtítulo -->
         <div class="flex-1 flex flex-col justify-center p-4 text-white">
             <h1 class="text-5xl font-bold mb-2">Faca que suas ideias saiam do papel</h1>
@@ -88,30 +72,49 @@
         </div>
     </div>
 
+    <!-- B&W picture -->
+    <div class="bg-gray-200 p-6 shadow-md">
+        <div class="flex items-center">
+            <!-- Imagen -->
+            <img 
+                id="byn-foto"
+                class="w-1/3 h-auto transition duration-300 ease-in-out rounded-lg cursor-pointer filter grayscale hover:grayscale-0" 
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png" 
+                alt="Imagem"
+            />
+    
+            <!-- Texto -->
+            <div class="ml-6">
+                <h2 class="text-2xl font-semibold mb-2">blahblahblahblah</h2>
+                <p class="text-gray-700 mr-6">blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahbla hblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p>
+            </div>
+        </div>
+    </div>
+
     <!--Logos -->
-    <div class="bg-branco p-8 rounded-lg shadow-md">
-        <h2 class="text-3xl font-semibold mb-6 text-center text-preto">Tecnologías Usadas</h2>
-        <div class="grid grid-cols-3 gap-6">
+    <div class="bg-gray-200 p-4 shadow-md">
+        <br><br><hr class="mx-8">
+        <div class="grid grid-cols-3 gap-4">
           <!-- Logo 1 -->
           <div class="flex justify-center items-center">
-            <img src="../static/SketchUp-logo_1.webp" alt="Logo 1" class="w-[250px] object-contain transition-transform transform hover:scale-105" />
+            <img src="../static/SketchUp-logo_1.webp" alt="Logo 1" class="w-[250px] h-[120px] object-contain transition-transform transform hover:scale-105" />
           </div>
       
           <!-- Logo 2 -->
           <div class="flex justify-center items-center">
-            <img src="../static/Enscape-Logo.webp" alt="Logo 2" class="w-[250px] object-contain transition-transform transform hover:scale-105" />
+            <img src="../static/Enscape-Logo.webp" alt="Logo 2" class="w-[250px] h-[50px] object-contain transition-transform transform hover:scale-105" />
           </div>
       
           <!-- Logo 3 -->
           <div class="flex justify-center items-center">
-            <img src="../static/LayOut-logo_1.webp" alt="Logo 3" class="w-[250px] object-contain transition-transform transform hover:scale-105" />
+            <img src="../static/LayOut-logo_1.webp" alt="Logo 3" class="w-[250px] h-[40px] object-contain transition-transform transform hover:scale-105" />
           </div>
         </div>
       </div>
       
 
     <!-- Perguntas frequentes -->
-    <div class="bg-gray-800 p-8 px-16">
+    <div class="bg-preto p-8 px-16">
         <h1 class="text-3xl font-bold text-gray-300 mb-6 mx-auto">Preguntas Frecuentes</h1>
 
         <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-300 dark:text-gray-400">
@@ -156,6 +159,39 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="shadow bg-gray-900">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">JKO Design</span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-400">
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6 mr-4">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6 mr-4">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6 mr-4">Licensing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
+            <span class="block text-sm sm:text-center text-gray-400">© 2024 <a href="#" class="hover:underline">JKO Design™</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/554384233952" class="fixed bottom-4 right-4 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300 ease-in-out z-40"> <!-- Ajustar z-index -->
+        <i class="fab fa-whatsapp fa-2x"></i>
+    </a>
+    
 
     <script>
         // scroll
