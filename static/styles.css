@@ -1,0 +1,14 @@
+/* Flecha hacia abajo por defecto */
+[data-accordion-icon] {
+    transition: transform 0.3s ease;
+}
+
+/* Flecha rotada 180 grados cuando el acordeón está abierto */
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+/* Flecha sin rotar cuando el acordeón está cerrado */
+.rotate-0 {
+    transform: rotate(0deg);
+}
