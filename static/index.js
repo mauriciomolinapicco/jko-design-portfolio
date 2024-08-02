@@ -3,6 +3,17 @@ function scrollToSection() {
     document.getElementById('scroll-target').scrollIntoView({ behavior: 'smooth' });
 }
 
+// portfolio open pictures
+function openModal(src) {
+    document.getElementById('modalImage').src = src;
+    document.getElementById('imageModal').classList.add('open');
+}
+// Función para cerrar el modal
+function closeModal() {
+    document.getElementById('imageModal').classList.remove('open');
+}
+
+
 // B&W picture
 const foto = document.getElementById('byn-foto');
 

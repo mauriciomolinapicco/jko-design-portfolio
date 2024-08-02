@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JKO Design</title>
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="../static/output.css">
     <link rel="stylesheet" href="../static/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
@@ -13,7 +13,7 @@
 </head>
 <body class="bg-preto text-branco">
     <!-- Navbar -->
-    <nav class="absolute top-0 left-0 w-full bg-transparent z-50">
+    <nav class="absolute top-0 left-0 w-full bg-transparent z-50 pt-8">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">JKO Design</span>
@@ -27,21 +27,22 @@
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent">
                     <li>
-                        <a href="#" class="block py-2 px-3 text-branco rounded hover:text-blue-700 md:p-0">Home</a>
+                        <a href="index.html" class="block py-2 px-3 text-branco rounded hover:text-bege md:p-0">Inicio</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-branco rounded hover:text-blue-700 md:p-0">Sobre mim</a>
+                        <a href="#" class="block py-2 px-3 text-branco rounded hover:text-bege md:p-0">Sobre mim</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-branco rounded hover:text-blue-700 md:p-0">Portfolio</a>
+                        <a href="portfolio.html" class="block py-2 px-3 text-branco rounded hover:text-bege md:p-0">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-branco rounded hover:text-blue-700 md:p-0">Contato</a>
+                        <a href="#" class="block py-2 px-3 text-branco rounded hover:text-bege md:p-0">Contato</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>  
+
 
     <!-- Hero section -->
     <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
@@ -62,12 +63,18 @@
         </div>
     </div>
 
+
     <!-- Reveal photos -->
     <div class="bg-preto p-4 flex">
-        <div class="flex-1 flex flex-col justify-center p-4 text-white">
-            <h1 class="text-5xl font-bold mb-2">Faca que suas ideias saiam do papel</h1>
-            <h2 class="text-2xl">algo marketinero</h2>
+        <div class="flex-1 flex flex-col items-center justify-center text-center p-4 text-white">
+            <h1 class="text-5xl font-bold mb-2">Transforme suas Ideias em Realidade</h1>
+            <h2 class="text-xl mb-4">Conquiste o sucesso com um design inovador</h2>
+            <a href="portfolio.html" class="bg-bege w-[300px] mx-auto text-gray-900 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg inline-block">Conheça nosso portfólio</a>
         </div>
+        
+        
+        
+        
         <div class="flex-1 flex items-center justify-center">
             <div class="diff aspect-[16/9]">
                 <div class="diff-item-1">
@@ -79,64 +86,8 @@
                 <div class="diff-resizer"></div>
             </div>
         </div>
-    </div>
+    </div>    
 
-    <!-- portfolio -->
-    <section id="portfolio" class="p-8 bg-preto">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-4 text-branco">Portfólio de Projetos</h2>
-            <p class="mb-4 text-branco">Explore nossos projetos anteriores e veja o que podemos fazer por você.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Exemplo de items de portfólio -->
-                <div class="relative group">
-                    <img src="../static/exterior.webp" alt="Project 1" class="w-full h-64 object-cover rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-105">
-                    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        <h3 class="text-white text-lg font-semibold">Projeto 1</h3>
-                    </div>
-                </div>
-                <div class="relative group">
-                    <img src="../static/quarto-infantil-1.webp" alt="Project 2" class="w-full h-64 object-cover rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-105">
-                    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        <h3 class="text-white text-lg font-semibold">Projeto 2</h3>
-                    </div>
-                </div>
-                <div class="relative group">
-                    <img src="../static/quarto-infantil-2.webp" alt="Project 3" class="w-full h-64 object-cover rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-105">
-                    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                        <h3 class="text-white text-lg font-semibold">Projeto 3</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-    <!-- B&W picture -->
-    <div class="bg-gray-200 p-6 shadow-md">
-        <div class="flex items-center">
-            <img id="byn-foto" class="w-1/3 h-auto transition duration-300 ease-in-out rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png" alt="Imagem"/>
-            <div class="ml-6">
-                <h2 class="text-2xl font-semibold mb-2">blahblahblahblah</h2>
-                <p class="text-gray-700 mr-6">blahbhblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- sketchup Logos -->
-    <div class="bg-gray-200 p-4 shadow-md">
-        <br>
-        <div class="grid grid-cols-3 gap-4">
-            <div class="flex justify-center items-center">
-                <img src="../static/sketchup.webp" alt="Logo 1" class="w-[250px] h-[120px] object-contain transition-transform transform hover:scale-105" />
-            </div>
-            <div class="flex justify-center items-center">
-                <img src="../static/enscape.webp" alt="Logo 2" class="w-[250px] h-[50px] object-contain transition-transform transform hover:scale-105" />
-            </div>
-            <div class="flex justify-center items-center">
-                <img src="../static/layout.webp" alt="Logo 3" class="w-[250px] h-[40px] object-contain transition-transform transform hover:scale-105" />
-            </div>
-        </div>
-    </div>
 
     <!-- Serviços -->
     <section id="services" class="py-16 p-8">
@@ -145,7 +96,7 @@
             <p class="text-gray-300 mb-4">Oferecemos uma variedade de serviços de design arquitetônico em 3D para atender todas as suas necessidades.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Serviço 1 -->
-                <div class="p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl" style="background-color:#C09A75;">
+                <div class="p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl bg-bege">
                     <svg class="w-16 h-16 mx-auto mb-4 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16M6 6v12M18 6v12" />
                     </svg>
@@ -153,7 +104,7 @@
                     <p class="mt-2 text-gray-800">Criação de modelos 3D precisos e detalhados para seus projetos arquitetônicos.</p>
                 </div>
                 <!-- Serviço 2 -->
-                <div class="bg-bege p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl" style="background-color:#C09A75;">
+                <div class="bg-bege p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl bg-bege">
                     <svg class="w-16 h-16 mx-auto mb-4 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3h14a1 1 0 011 1v16a1 1 0 01-1 1H5a1 1 0 01-1-1V4a1 1 0 011-1z" />
                     </svg>
@@ -161,7 +112,7 @@
                     <p class="mt-2 text-gray-800">Renderizações de alta qualidade que destacam os detalhes e a estética dos seus designs.</p>
                 </div>
                 <!-- Serviço 3 -->
-                <div class="bg-bege p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl" style="background-color:#C09A75;">
+                <div class="bg-bege p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl bg-bege">
                     <svg class="w-16 h-16 mx-auto mb-4 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10h10M7 14h10m-5 4v-4m-1 0v4m1-4h2m-1 4v-4M5 6h14v12H5V6z" />
                     </svg>
@@ -169,7 +120,7 @@
                     <p class="mt-2 text-gray-800">Designs de distribuição espacial otimizados para funcionalidade e estética.</p>
                 </div>
                 <!-- Serviço 4 -->
-                <div class="bg-bege p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl" style="background-color:#C09A75;">
+                <div class="bg-bege p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl bg-bege">
                     <svg class="w-16 h-16 mx-auto mb-4 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 3a1 1 0 00-1 1v12a1 1 0 001 1h10a1 1 0 001-1V4a1 1 0 00-1-1H7z" />
                     </svg>
@@ -177,7 +128,7 @@
                     <p class="mt-2 text-gray-800">Consultoria profissional para melhorar seus projetos arquitetônicos.</p>
                 </div>
                 <!-- Serviço 5 -->
-                <div class="bg-bege p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl" style="background-color:#C09A75;">
+                <div class="bg-bege p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl bg-bege">
                     <svg class="w-16 h-16 mx-auto mb-4 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h18a2 2 0 012 2v10a2 2 0 01-2 2H3a2 2 0 01-2-2V7a2 2 0 012-2zM1 7v10a4 4 0 004 4h14a4 4 0 004-4V7" />
                     </svg>
@@ -185,7 +136,7 @@
                     <p class="mt-2 text-gray-800">Criação de animações para visualizar seus projetos em movimento.</p>
                 </div>
                 <!-- Serviço 6 -->
-                <div class="bg-bege p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl" style="background-color:#C09A75;">
+                <div class="bg-bege p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl bg-bege">
                     <svg class="w-16 h-16 mx-auto mb-4 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 3v18l16-9L4 3z" />
                     </svg>
@@ -196,50 +147,76 @@
         </div>
     </section>
 
+    
+    <!-- sketchup Logos -->
+    <div class="bg-preto p-4">
+        <div class="grid grid-cols-3 gap-4">
+            <div class="flex justify-center items-center">
+                <img src="../static/sketchup (1).webp" alt="Logo 1" class="w-[250px] h-[120px] color-bege object-contain transition-transform transform hover:scale-105" />
+            </div>
+            <div class="flex justify-center items-center">
+                <img src="../static/enscape (1).webp" alt="Logo 2" class="w-[250px] h-[50px] object-contain transition-transform transform hover:scale-105" />
+            </div>
+            <div class="flex justify-center items-center">
+                <img src="../static/layout (1).webp" alt="Logo 3" class="w-[250px] h-[40px] object-contain transition-transform transform hover:scale-105" />
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Imagen B&W -->
+    <div class="bg-gray-200 p-6 shadow-md rounded-lg">
+        <div class="flex flex-col md:flex-row items-center">
+            <img id="byn-foto" class="w-1/2 sm:w-full h-auto transition duration-300 ease-in-out rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="../static/hotel-1.webp" alt="Imagem"/>
+            <div class="mt-4 md:mt-0 md:ml-6 flex-1">
+                <h2 class="text-2xl md:text-4xl font-semibold mb-2 text-gray-800">Design Moderno</h2>
+                <p class="text-gray-700 text-base md:text-lg">Nosso design moderno incorpora os últimos avanços em arquitetura para criar espaços que são tão funcionais quanto esteticamente agradáveis.</p>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Processo -->
     <section id="process" class="py-16 bg-gray-300 p-8">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-4 text-gray-900">Nosso Processo de Trabalho</h2>
-            <p class="mb-4 text-gray-600">Nosso enfoque garante resultados excepcionais e satisfação total do cliente.</p>
+            <h2 class="text-3xl font-bold mb-4 text-preto">Nosso Processo de Trabalho</h2>
+            <p class="mb-4 text-preto">Nosso enfoque garante resultados excepcionais e satisfação total do cliente.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Etapa 1 -->
                 <div class="p-8 bg-gray-800 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-bege" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-9M12 14l-9-9M12 14v-10" />
                     </svg>
-                    <h3 class="text-xl font-semibold text-gray-900">1. Consulta Inicial</h3>
-                    <p class="mt-2 text-gray-600">Nos reunimos com você para entender suas necessidades e objetivos do projeto.</p>
+                    <h3 class="text-xl font-semibold text-bege">1. Consulta Inicial</h3>
+                    <p class="mt-2 text-bege">Nos reunimos com você para entender suas necessidades e objetivos do projeto.</p>
                 </div>
                 <!-- Etapa 2 -->
                 <div class="p-8 bg-gray-800 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-bege" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12h18M3 6h18m-9 6v6" />
                     </svg>
-                    <h3 class="text-xl font-semibold text-gray-900">2. Planejamento</h3>
-                    <p class="mt-2 text-gray-600">Desenvolvemos um plano detalhado que aborda todos os aspectos do projeto.</p>
+                    <h3 class="text-xl font-semibold text-bege">2. Planejamento</h3>
+                    <p class="mt-2 text-bege">Desenvolvemos um plano detalhado que aborda todos os aspectos do projeto.</p>
                 </div>
                 <!-- Etapa 3 -->
                 <div class="p-8 bg-gray-800 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-bege" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7m6-7H3" />
                     </svg>
-                    <h3 class="text-xl font-semibold text-gray-900">3. Design e Desenvolvimento</h3>
-                    <p class="mt-2 text-gray-600">Criamos modelos 3D e renderizações para visualizar suas ideias com precisão.</p>
+                    <h3 class="text-xl font-semibold text-bege">3. Design e Desenvolvimento</h3>
+                    <p class="mt-2 text-bege">Criamos modelos 3D e renderizações para visualizar suas ideias com precisão.</p>
                 </div>
                 <!-- Etapa 4 -->
                 <div class="p-8 bg-gray-800 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-bege" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15l-3 3m0 0l3 3m-3-3h18M6 15l3-3m0 0L6 9m0 6h18" />
                     </svg>
-                    <h3 class="text-xl font-semibold text-gray-900">4. Revisão e Entrega</h3>
-                    <p class="mt-2 text-gray-600">Revisamos os designs com você e fazemos ajustes antes da entrega final.</p>
+                    <h3 class="text-xl font-semibold text-bege">4. Revisão e Entrega</h3>
+                    <p class="mt-2 text-bege">Revisamos os designs com você e fazemos ajustes antes da entrega final.</p>
                 </div>
             </div>
         </div>
     </section>
-
-
-
         
 
     <!-- Timeline -->
@@ -275,7 +252,6 @@
             </li>
         </ul>
     </div>
-
 
 
     <!-- Perguntas frequentes -->
@@ -325,6 +301,7 @@
         </div>
     </div>
 
+    
     <!-- Footer -->
     <footer class="shadow bg-gray-900">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
@@ -352,10 +329,12 @@
         </div>
     </footer>
 
+
     <!-- WhatsApp Floating Button -->
     <a href="https://wa.me/554384233952" class="fixed bottom-4 right-4 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300 ease-in-out z-40"> <!-- Ajustar z-index -->
         <i class="fab fa-whatsapp fa-2x"></i>
     </a>
+
 
     <script src="../static/index.js"></script>
 </body>
