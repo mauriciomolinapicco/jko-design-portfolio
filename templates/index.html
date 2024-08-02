@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JKO Design</title>
-
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="../static/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
+<body class="bg-preto text-branco">
     <!-- Navbar -->
     <nav class="absolute top-0 left-0 w-full bg-transparent z-50">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -49,13 +48,11 @@
             <img src="../static/depto-1.webp" alt="Background Image" class="object-cover object-center w-full h-full" />
             <div class="absolute inset-0 bg-black opacity-50"></div>
         </div>
-        
         <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
             <h1 class="text-7xl font-bold leading-tight mb-4">Transforme suas visoes em realidade</h1>
             <p class="text-2xl text-gray-300 mb-8">De vida ao seus projetos com nossas solucoes de modelagem 3D e renderizacao</p>
             <a href="https://wa.me/554384233952" class="bg-branco hover:text-branco text-gray-900 hover:bg-bege py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Faca um orcamento</a>
         </div>
-        
         <!-- Flecha -->
         <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 cursor-pointer" onclick="scrollToSection()">
             <svg class="w-8 h-8 text-branco animate-bounce" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -63,26 +60,20 @@
             </svg>
         </div>
     </div>
-    
 
     <!-- Reveal photos -->
     <div class="bg-preto p-4 flex">
-        <!-- Div de la mitad izquierda con título y subtítulo -->
         <div class="flex-1 flex flex-col justify-center p-4 text-white">
             <h1 class="text-5xl font-bold mb-2">Faca que suas ideias saiam do papel</h1>
             <h2 class="text-2xl">algo marketinero</h2>
         </div>
-        
-        <!-- Div de la mitad derecha con imágenes -->
         <div class="flex-1 flex items-center justify-center">
             <div class="diff aspect-[16/9]">
                 <div class="diff-item-1">
-                <img alt="daisy" src="https://img.daisyui.com/images/stock/photo-1560717789-0ac7c58ac90a.webp" />
+                    <img alt="daisy" src="../static/exterior-lapiz.webp" />
                 </div>
                 <div class="diff-item-2">
-                <img
-                    alt="daisy"
-                    src="../static/casa_exemplo.png" />
+                    <img alt="daisy" src="../static/exterior.webp" />
                 </div>
                 <div class="diff-resizer"></div>
             </div>
@@ -92,43 +83,169 @@
     <!-- B&W picture -->
     <div class="bg-gray-200 p-6 shadow-md">
         <div class="flex items-center">
-            <!-- Imagen -->
-            <img 
-                id="byn-foto"
-                class="w-1/3 h-auto transition duration-300 ease-in-out rounded-lg cursor-pointer filter grayscale hover:grayscale-0" 
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png" 
-                alt="Imagem"
-            />
-    
-            <!-- Texto -->
+            <img id="byn-foto" class="w-1/3 h-auto transition duration-300 ease-in-out rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png" alt="Imagem"/>
             <div class="ml-6">
                 <h2 class="text-2xl font-semibold mb-2">blahblahblahblah</h2>
-                <p class="text-gray-700 mr-6">blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahbla hblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p>
+                <p class="text-gray-700 mr-6">blahbhblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</p>
             </div>
         </div>
     </div>
 
-    <!--Logos -->
+    <!-- sketchup Logos -->
     <div class="bg-gray-200 p-4 shadow-md">
         <br><br>
         <div class="grid grid-cols-3 gap-4">
-          <!-- Logo 1 -->
-          <div class="flex justify-center items-center">
-            <img src="../static/SketchUp-logo_1.webp" alt="Logo 1" class="w-[250px] h-[120px] object-contain transition-transform transform hover:scale-105" />
-          </div>
-      
-          <!-- Logo 2 -->
-          <div class="flex justify-center items-center">
-            <img src="../static/Enscape-Logo.webp" alt="Logo 2" class="w-[250px] h-[50px] object-contain transition-transform transform hover:scale-105" />
-          </div>
-      
-          <!-- Logo 3 -->
-          <div class="flex justify-center items-center">
-            <img src="../static/LayOut-logo_1.webp" alt="Logo 3" class="w-[250px] h-[40px] object-contain transition-transform transform hover:scale-105" />
-          </div>
+            <div class="flex justify-center items-center">
+                <img src="../static/sketchup.webp" alt="Logo 1" class="w-[250px] h-[120px] object-contain transition-transform transform hover:scale-105" />
+            </div>
+            <div class="flex justify-center items-center">
+                <img src="../static/enscape.webp" alt="Logo 2" class="w-[250px] h-[50px] object-contain transition-transform transform hover:scale-105" />
+            </div>
+            <div class="flex justify-center items-center">
+                <img src="../static/layout.webp" alt="Logo 3" class="w-[250px] h-[40px] object-contain transition-transform transform hover:scale-105" />
+            </div>
         </div>
-      </div>
-      
+    </div>
+
+    <!-- Serviços -->
+    <section id="services" class="py-16 p-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Serviços</h2>
+            <p class="text-gray-300 mb-4">Oferecemos uma variedade de serviços de design arquitetônico em 3D para atender todas as suas necessidades.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Serviço 1 -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16M6 6v12M18 6v12" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-white">Modelagem 3D</h3>
+                    <p class="mt-2 text-gray-400">Criação de modelos 3D precisos e detalhados para seus projetos arquitetônicos.</p>
+                </div>
+                <!-- Serviço 2 -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3h14a1 1 0 011 1v16a1 1 0 01-1 1H5a1 1 0 01-1-1V4a1 1 0 011-1z" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-white">Renderização</h3>
+                    <p class="mt-2 text-gray-400">Renderizações de alta qualidade que destacam os detalhes e a estética dos seus designs.</p>
+                </div>
+                <!-- Serviço 3 -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10h10M7 14h10m-5 4v-4m-1 0v4m1-4h2m-1 4v-4M5 6h14v12H5V6z" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-white">Planejamento Espacial</h3>
+                    <p class="mt-2 text-gray-400">Designs de distribuição espacial otimizados para funcionalidade e estética.</p>
+                </div>
+                <!-- Serviço 4 -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 3a1 1 0 00-1 1v12a1 1 0 001 1h10a1 1 0 001-1V4a1 1 0 00-1-1H7z" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-white">Consultoria</h3>
+                    <p class="mt-2 text-gray-400">Consultoria profissional para melhorar seus projetos arquitetônicos.</p>
+                </div>
+                <!-- Serviço 5 -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h18a2 2 0 012 2v10a2 2 0 01-2 2H3a2 2 0 01-2-2V7a2 2 0 012-2zM1 7v10a4 4 0 004 4h14a4 4 0 004-4V7" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-white">Animações 3D</h3>
+                    <p class="mt-2 text-gray-400">Criação de animações para visualizar seus projetos em movimento.</p>
+                </div>
+                <!-- Serviço 6 -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 3v18l16-9L4 3z" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-white">Visualização VR</h3>
+                    <p class="mt-2 text-gray-400">Experiências de realidade virtual para uma imersão total em seus designs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Processo -->
+    <section id="process" class="py-16 bg-gray-300 p-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4 text-gray-900">Nosso Processo de Trabalho</h2>
+            <p class="mb-4 text-gray-600">Nosso enfoque garante resultados excepcionais e satisfação total do cliente.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Etapa 1 -->
+                <div class="p-8 bg-gray-800 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-9M12 14l-9-9M12 14v-10" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-gray-900">1. Consulta Inicial</h3>
+                    <p class="mt-2 text-gray-600">Nos reunimos com você para entender suas necessidades e objetivos do projeto.</p>
+                </div>
+                <!-- Etapa 2 -->
+                <div class="p-8 bg-gray-800 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12h18M3 6h18m-9 6v6" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-gray-900">2. Planejamento</h3>
+                    <p class="mt-2 text-gray-600">Desenvolvemos um plano detalhado que aborda todos os aspectos do projeto.</p>
+                </div>
+                <!-- Etapa 3 -->
+                <div class="p-8 bg-gray-800 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7m6-7H3" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-gray-900">3. Design e Desenvolvimento</h3>
+                    <p class="mt-2 text-gray-600">Criamos modelos 3D e renderizações para visualizar suas ideias com precisão.</p>
+                </div>
+                <!-- Etapa 4 -->
+                <div class="p-8 bg-gray-800 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+                    <svg class="w-16 h-16 mx-auto mb-4 text-purpura" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15l-3 3m0 0l3 3m-3-3h18M6 15l3-3m0 0L6 9m0 6h18" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-gray-900">4. Revisão e Entrega</h3>
+                    <p class="mt-2 text-gray-600">Revisamos os designs com você e fazemos ajustes antes da entrega final.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+        
+
+    <!-- Timeline -->
+    <div class="bg-preto p-8 flex flex-col items-center">
+        <h2 class="text-2xl font-bold text-white mb-6">Como é o proceso?</h2>
+        <ul class="relative border-s border-gray-200 bg-preto">
+            <li class="mb-10 ms-6">
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
+                    <svg class="w-2.5 h-2.5 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm12-6a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-3a1 1 0 0 1 1-1Zm-4 1a1 1 0 0 0-1-1H5a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1Z"/>
+                    </svg>
+                </span>
+                <h3 class="flex items-center mb-1 text-lg font-semibold text-white">Flowbite Library v1.0.0</h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+            </li>
+            <li class="mb-10 ms-6">
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
+                    <svg class="w-2.5 h-2.5 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm12-6a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-3a1 1 0 0 1 1-1Zm-4 1a1 1 0 0 0-1-1H5a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1Z"/>
+                    </svg>
+                </span>
+                <h3 class="mb-1 text-lg font-semibold text-white">Flowbite Library v1.0.0</h3>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+            </li>
+            <li class="ms-6">
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
+                    <svg class="w-2.5 h-2.5 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm12-6a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-3a1 1 0 0 1 1-1Zm-4 1a1 1 0 0 0-1-1H5a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1Z"/>
+                    </svg>
+                </span>
+                <h3 class="mb-1 text-lg font-semibold text-white">Flowbite Library v1.0.0</h3>
+                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+            </li>
+        </ul>
+    </div>
+
+
 
     <!-- Perguntas frequentes -->
     <div class="bg-preto p-8 px-16">
