@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
-<body class="bg-preto text-branco">
+<body class="bg-preto font-body text-branco">
     <!-- Navbar -->
     <nav class="absolute top-0 left-0 w-full bg-transparent z-50 pt-8">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -27,16 +27,16 @@
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent">
                     <li>
-                        <a href="index.html" class="block py-2 px-3 text-branco rounded hover:text-bege md:p-0">Inicio</a>
+                        <a href="index.html" class="block py-2 px-3 text-bege rounded text-md hover:text-bege md:p-0">Inicio</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-branco rounded hover:text-bege md:p-0">Sobre mim</a>
+                        <a href="#" class="block py-2 px-3 text-branco rounded text-md hover:text-bege md:p-0">Sobre mim</a>
                     </li>
                     <li>
-                        <a href="portfolio.html" class="block py-2 px-3 text-branco rounded hover:text-bege md:p-0">Portfolio</a>
+                        <a href="portfolio.html" class="block py-2 px-3 text-branco rounded text-md hover:text-bege md:p-0">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-branco rounded hover:text-bege md:p-0">Contato</a>
+                        <a href="#" class="block py-2 px-3 text-branco rounded text-md hover:text-bege md:p-0">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -47,13 +47,13 @@
     <!-- Hero section -->
     <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
         <div class="absolute inset-0">
-            <img src="../static/depto-1.webp" alt="Background Image" class="object-cover object-center w-full h-full" />
-            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <img src="../static/depto-2.webp" alt="Background Image" class="object-cover object-center w-full h-full" />
+            <div class="absolute inset-0 bg-black opacity-25"></div>
         </div>
         <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
-            <h1 class="text-7xl font-bold leading-tight mb-4">Transforme suas visoes em realidade</h1>
+            <h1 class="text-7xl font-bold leading-tight mb-4">Transforme suas visões em <p class="text-bege">realidade</p></h1>
             <p class="text-2xl text-gray-300 mb-8">De vida ao seus projetos com nossas solucoes de modelagem 3D e renderizacao</p>
-            <a href="https://wa.me/554384233952" class="bg-branco hover:text-branco text-gray-900 hover:bg-bege py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Faca um orcamento</a>
+            <a href="https://wa.me/554384233952" class="hover:bg-bege hover:text-branco text-preto bg-branco py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Faca um orcamento</a>
         </div>
         <!-- Flecha -->
         <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 cursor-pointer" onclick="scrollToSection()">
@@ -64,27 +64,16 @@
     </div>
 
 
-    <!-- Reveal photos -->
-    <div class="bg-preto p-4 flex">
-        <div class="flex-1 flex flex-col items-center justify-center text-center p-4 text-white">
+    <!-- First page -->
+    <div class="bg-gray-300 p-8 py-8 flex">
+        <div class="flex-1 flex flex-col items-center justify-center text-center p-4 text-preto">
             <h1 class="text-5xl font-bold mb-2">Transforme suas Ideias em Realidade</h1>
-            <h2 class="text-xl mb-4">Conquiste o sucesso com um design inovador</h2>
-            <a href="portfolio.html" class="bg-bege w-[300px] mx-auto text-gray-900 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg inline-block">Conheça nosso portfólio</a>
+            <h2 class="text-xl font-semibold mb-4">Conquiste o sucesso com um design inovador</h2>
+            <a href="portfolio.html" class="bg-preto w-[300px] mx-auto text-white hover:bg-bege py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg inline-block">Conheça nosso portfólio</a>
         </div>
         
-        
-        
-        
         <div class="flex-1 flex items-center justify-center">
-            <div class="diff aspect-[16/9]">
-                <div class="diff-item-1">
-                    <img alt="daisy" src="../static/exterior-lapiz.webp" />
-                </div>
-                <div class="diff-item-2">
-                    <img alt="daisy" src="../static/exterior.webp" />
-                </div>
-                <div class="diff-resizer"></div>
-            </div>
+            <img src="../static/hotel-1.webp" alt="">
         </div>
     </div>    
 
@@ -147,7 +136,21 @@
         </div>
     </section>
 
-    
+
+    <!-- reveal image 
+    <div class="">
+        <div class="diff aspect-[16/9]">
+            <div class="diff-item-1">
+                <img alt="daisy" src="../static/exterior-lapiz.webp" />
+            </div>
+            <div class="diff-item-2">
+                <img alt="daisy" src="../static/exterior.webp" />
+            </div>
+            <div class="diff-resizer"></div>
+        </div>
+    </div> -->
+
+
     <!-- sketchup Logos -->
     <div class="bg-preto p-4">
         <div class="grid grid-cols-3 gap-4">

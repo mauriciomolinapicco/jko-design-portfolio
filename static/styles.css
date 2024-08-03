@@ -19,3 +19,7 @@
 .modal.open {
     display: flex;
 }
+
+.navbar-item.active {
+    color: #C09A75; 
+}
