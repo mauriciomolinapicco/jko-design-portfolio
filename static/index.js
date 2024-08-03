@@ -1,3 +1,14 @@
+//flecha do hero section 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+
 // Scroll to section
 function scrollToSection() {
     document.getElementById('scroll-target').scrollIntoView({ behavior: 'smooth' });

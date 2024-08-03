@@ -8,7 +8,7 @@ module.exports = {
         'branco': '#F9F9F9',
         'branco-2': '#FDFDFD',
         'bege': '#C09A75',
-        'bege-2': '#8E6F50'
+        'bege-claro': '#EFECE8'
       }, 
       fontFamily: {
         body: ['Nunito sans']
