@@ -824,6 +824,10 @@ video {
   height: 100vh;
 }
 
+.h-12{
+  height: 3rem;
+}
+
 .w-1\/2{
   width: 50%;
 }
@@ -874,6 +878,10 @@ video {
 
 .w-\[150px\]{
   width: 150px;
+}
+
+.w-12{
+  width: 3rem;
 }
 
 .max-w-lg{
@@ -1195,6 +1203,36 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-\[50px\]{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.px-\[40px\]{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.px-\[35px\]{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .pb-4{
