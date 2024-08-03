@@ -1,3 +1,5 @@
+AOS.init();
+
 //flecha do hero section 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {

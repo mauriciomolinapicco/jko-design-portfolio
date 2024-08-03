@@ -11,8 +11,12 @@ module.exports = {
         'bege-claro': '#EFECE8'
       }, 
       fontFamily: {
-        body: ['Nunito sans']
-      }
+        body: ['Roboto Condensed']
+      },
+      width: {
+        '3/5': '60%',
+      },
+
     },
   },
   plugins: [],
