@@ -674,6 +674,10 @@ video {
   z-index: 50;
 }
 
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
@@ -786,6 +790,14 @@ video {
 
 .ml-4{
   margin-left: 1rem;
+}
+
+.mt-12{
+  margin-top: 3rem;
+}
+
+.mr-16{
+  margin-right: 4rem;
 }
 
 .block{
@@ -1315,6 +1327,10 @@ video {
   padding: 4rem;
 }
 
+.p-48{
+  padding: 12rem;
+}
+
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1390,6 +1406,16 @@ video {
   padding-right: 5rem;
 }
 
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-40{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
 .pb-\[30px\]{
   padding-bottom: 30px;
 }
@@ -1440,6 +1466,42 @@ video {
 
 .pb-10{
   padding-bottom: 2.5rem;
+}
+
+.pt-40{
+  padding-top: 10rem;
+}
+
+.pb-60{
+  padding-bottom: 15rem;
+}
+
+.pb-40{
+  padding-bottom: 10rem;
+}
+
+.pt-\[100px\]{
+  padding-top: 100px;
+}
+
+.pt-\[130px\]{
+  padding-top: 130px;
+}
+
+.pt-\[140px\]{
+  padding-top: 140px;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
+}
+
+.pr-16{
+  padding-right: 4rem;
+}
+
+.pl-16{
+  padding-left: 4rem;
 }
 
 .text-center{
@@ -1684,6 +1746,12 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:scale-125:hover{
+  --tw-scale-x: 1.25;
+  --tw-scale-y: 1.25;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:border-bege:hover{
   --tw-border-opacity: 1;
   border-color: rgb(192 154 117 / var(--tw-border-opacity));
@@ -1810,6 +1878,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:col-span-2{
+    grid-column: span 2 / span 2;
+  }
+
   .md\:mb-0{
     margin-bottom: 0px;
   }
@@ -1916,6 +1988,10 @@ video {
 
   .md\:pl-12{
     padding-left: 3rem;
+  }
+
+  .md\:pb-8{
+    padding-bottom: 2rem;
   }
 
   .md\:text-2xl{
