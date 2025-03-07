@@ -46,80 +46,94 @@
     <h2 class="text-preto text-3xl text-center font-semibold mt-12">Portfolio</h2>
 
     <div class="flex items-center justify-center py-4"> 
-        <button class="border border-preto px-4 py-2 mb-8 mx-3 hover:bg-bege hover:border-bege hover:text-white transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg">Todas</button>
-        <button id="internasBtn" class="border border-preto px-4 py-2 mb-8 mx-3 hover:bg-bege hover:border-bege hover:text-white transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg">Internas</button>
-        <button id="externasBtn" class="border border-preto px-4 py-2 mb-8 mx-3 hover:bg-bege hover:border-bege hover:text-white transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg">Externas</button>
-        <button id="isometricasBtn" class="border border-preto px-4 py-2 mb-8 mx-3 hover:bg-bege hover:border-bege hover:text-white transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg">Isometricas</button>
+        <button class="border border-preto px-4 py-2 mb-8 mx-3 hover:bg-bege hover:border-bege hover:text-white transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
+            id="todasBtn"
+            >Todas</button>
+        <button class="border border-preto px-4 py-2 mb-8 mx-3 hover:bg-bege hover:border-bege hover:text-white transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
+            id="internasBtn"
+            >Internas</button>
+        <button class="border border-preto px-4 py-2 mb-8 mx-3 hover:bg-bege hover:border-bege hover:text-white transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
+            id="externasBtn"
+            >Externas</button>
+        <button class="border border-preto px-4 py-2 mb-8 mx-3 hover:bg-bege hover:border-bege hover:text-white transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
+            id="isometricasBtn"
+            >Isometricas</button>
     </div>
 
  
     <!-- INTERNAS -->
-    <div id="internas" class="grid grid-cols-2 md:grid-cols-3 gap-4 px-[90px] mb-8 hidden">
-        <div class="grid-item">
-            <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf2.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/Banheiro4.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/Banheiro2.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto 2.webp" alt="">
-            <img class="mt-4 col-span-2" src="../static/portfolio/apto not 1 ultraHD 5.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/mesinhaA.webp" alt="">
+    <div id="internas">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-[90px] mb-8">
+            <div class="grid-item">
+                <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf2.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/Banheiro4.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/Banheiro2.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto 2.webp" alt="">
+                <img class="mt-4 col-span-2" src="../static/portfolio/apto not 1 ultraHD 5.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/mesinhaA.webp" alt="">
 
-        </div>
-        <div class="grid-item">
-            <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf3.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/Quarto-inf5.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/Banheiro1.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto not 1 ultraHD tv.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto 3.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/sofá.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/Nichos.webp" alt="">
+            </div>
+            <div class="grid-item">
+                <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf3.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/Quarto-inf5.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/Banheiro1.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto not 1 ultraHD tv.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto 3.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/sofá.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/Nichos.webp" alt="">
 
-        </div>
-        <div class="grid-item">
-            <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf4.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/Quarto-inf1.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/Banheiro3.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto not 1 ultraHD 8.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto not 1 ultraHD tv 4.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/plantinha.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/Teto.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/hotel_205-enhanced.webp" alt="">
+            </div>
+            <div class="grid-item">
+                <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf4.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/Quarto-inf1.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/Banheiro3.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto not 1 ultraHD 8.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto not 1 ultraHD tv 4.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/plantinha.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/Teto.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/hotel_205-enhanced.webp" alt="">
+            </div>
         </div>
     </div>
 
 
      <!-- EXTERNAS -->
-     <div id="externas" class="grid grid-cols-2 md:grid-cols-3 gap-4 px-[90px] mb-8" >
-        <div class="grid-item">
-            <img class="h-auto max-w-full" src="../static/portfolio/tonhao2.webp" alt="">
+    <div id="externas">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-[90px] mb-8" >
+            <div class="grid-item">
+                <img class="h-auto max-w-full" src="../static/portfolio/tonhao2.webp" alt="">
 
-        </div>
-        <div class="grid-item">
-            <img class="h-auto max-w-full" src="../static/portfolio/tonhao1.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/tonhao3.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/tonhao4.webp" alt="">
-        </div>
-        <div class="grid-item">
-            <img class="h-auto max-w-full" src="../static/portfolio/tonhao6.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/tonhao5.webp" alt="">
+            </div>
+            <div class="grid-item">
+                <img class="h-auto max-w-full" src="../static/portfolio/tonhao1.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/tonhao3.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/tonhao4.webp" alt="">
+            </div>
+            <div class="grid-item">
+                <img class="h-auto max-w-full" src="../static/portfolio/tonhao6.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/tonhao5.webp" alt="">
+            </div>
         </div>
     </div>
 
-     <!-- ABA 3 -->
-     <div id="isometricas" class="grid grid-cols-2 md:grid-cols-3 gap-4 px-[90px]" style="display: none;">
-        <div class="grid-item">
-            <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf2.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/Banheiro2.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
-        </div>
-        <div class="grid-item">
-            <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf3.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/Quarto-inf5.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
-        </div>
-        <div class="grid-item">
-            <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf4.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="../static/portfolio/Quarto-inf1.webp" alt="">
-            <img class="h-auto max-w-full mt-4" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
+     <!-- Isometricas -->
+    <div id="isometricas">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-[90px]">
+            <div class="grid-item">
+                <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf2.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/Banheiro2.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf3.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/Quarto-inf5.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
+            </div>
+            <div class="grid-item">
+                <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf4.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/Quarto-inf1.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
+            </div>
         </div>
     </div>
 
