@@ -51,8 +51,15 @@
             <div class="absolute inset-0 bg-black opacity-35"></div>
         </div>
         <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
-            <h1 class="text-7xl font-bold leading-tight mb-4">Transforme suas visões em <p class="text-bege">realidade</p></h1>
-            <p class="text-2xl text-gray-300 font-bold mb-8">Dê vida aos seus projetos com nossas soluções de modelagem 3D e renderização</p>
+            <h1 class="text-7xl hidden md:block font-bold leading-tight mt-12 mb-4">
+                Transforme suas visões em <span class="text-bege">realidade</span>
+              </h1>
+            <!-- duplicando el titulo pq no puedo configurar tamano responsive -->
+            <h1 class="text-5xl px-2 block md:hidden font-bold leading-tight mt-12 mb-4">
+            Transforme suas visões em <span class="text-bege">realidade</span>
+            </h1>
+
+            <h3 class="text-lg md:text-xl lg:text-2xl text-gray-300 font-bold mb-8">Dê vida aos seus projetos com nossas soluções de modelagem 3D e renderização</h3>
             <a href="https://wa.me/554384233952" class="hover:bg-bege hover:border-bege text-branco border border-branco border-2 py-2 px-6 text-lg font-bold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Faça um orçamento</a>
         </div>
         <!-- Flecha animada -->
@@ -69,13 +76,13 @@
 
     <!-- Reveal image -->
 <div id="reveal-image" class="flex flex-col lg:flex-row items bg-branco-2 shadow-lg overflow-hidden lg:px-[90px] lg:h-[500px] h-auto">
-    <div class="lg:w-1/3 lg:ml-[35px] flex flex-col justify-center items-center relative mt-10 lg:mt-0" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+    <div class="lg:w-1/3 lg:ml-[150px] flex flex-col justify-center items-center relative mt-10 lg:mt-0" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
         <div class="flex items-center">
             <!-- Elemento linea vertical -->
-            <div class="w-3 mr-[10px] bg-bege h-full"></div>
-            <div class="pl-[10px]">
-                <h1 class="text-3xl lg:text-4xl font-bold text-preto mb-4 items-center text-center hover:translate-y-0.5">FAÇA COM QUE SEUS PROJETOS SAIAM DO PAPEL</h1>
-                <h2 class="text-xl lg:text-2xl text-preto font-semibold text-center text-center hover:translate-y-0.5">Transforme seus sonhos em uma realidade tridimensional, visualizando cada detalhe e trazendo suas ideias à vida com precisão e criatividade.</h2>
+            <div class="w-3 mr-[10px] bg-bege h-full hidden md:block"></div>
+            <div class="md:pl-[10px] px-4">
+                <h1 class="text-3xl md:text-4xl font-bold text-preto mb-4 items-center text-center">FAÇA COM QUE SEUS PROJETOS SAIAM DO PAPEL</h1>
+                <h2 class="text-xl md:text-2xl text-preto font-semibold mt-8md:mb-8 text-center text-center">Transforme seus sonhos em uma realidade tridimensional, visualizando cada detalhe e trazendo suas ideias à vida com precisão e criatividade.</h2>
                 <div class="flex items-center mt-4 text-xl text-preto text-center hidden lg:block animate-bounce">
                     <span>Passe o mouse na imagem e veja a magia acontecer!</span>
                 </div>
@@ -83,7 +90,8 @@
         </div>
     </div>
     <div class="flex items-center justify-center lg:w-[60%] h-[500px] lg:ml-[35px]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
-        <svg class="w-12 h-12 mx-4 text-preto opacity-75 hidden lg:block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <!-- Flecha apuntando a la derecha -->
+        <svg class="w-12 h-12 text-preto opacity-75 hidden lg:block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
         </svg>
         <div class="relative w-full h-full flex items-center justify-center max-w-xl">
@@ -99,7 +107,7 @@
     <!-- transforme suas ideias page -->
     <div class="bg-bege-claro p-8 py-8 flex flex-col md:flex-row items-center">
         <!-- TExto para pantalla chica -->
-        <div class="flex-1 flex flex-col items-center justify-center text-center text-preto pr-[90px] ml-[90px] mb-8 block md:hidden" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <div class="flex-1 flex flex-col items-center justify-center text-center text-preto md:pr-[90px] md:ml-[90px] mb-8 block md:hidden" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
             <h1 class="text-3xl md:text-4xl font-bold mb-2 hover:translate-y-0.5">Conheça a tecnologia que revolucionou o mercado imobiliário</h1> <br>
             <h2 class="text-xl md:text-2xl mb-4 hover:translate-y-0.5">Descubra como nossas visualizações 3D transformam projetos imobiliários em experiências imersivas e detalhadas, conquistando clientes e acelerando vendas</h2> <br>
             <a href="portfolio.html" class="text-center border border-2 border-preto w-[150px] mx-auto font-md text-preto hover:text-white hover:bg-bege hover:border-bege py-2 px-6 text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg inline-block">Saiba mais</a>
@@ -124,7 +132,7 @@
     <section id="process" class="pt-[70px] pb-[30px] bg-preto">
         <div class="container mx-auto text-center" data-aos="fade-up" data-aos-duration="1500">
             <h2 class="text-3xl md:text-4xl font-bold mb-4 text-branco transition-all duration-200">PROCESSO DE TRABALHO</h2>
-            <p class="mb-4 text-lg text-branco">Nosso enfoque garante resultados excepcionais e satisfação total do cliente.</p>
+            <p class="mb-4 text-lg text-branco px-4">Nosso enfoque garante resultados excepcionais e satisfação total do cliente.</p>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-0 mx-auto max-w-[800px]">
                 <!-- Etapa 1 -->
                 <div class="p-8 transform transition-transform duration-300 hover:scale-105" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
@@ -166,7 +174,8 @@
         
     
     <!-- sketchup Logos -->
-    <div class="bg-preto pb-[70px] pt-[60px]">
+     <!-- Por ahora lo oculto para movil -->
+    <div class="bg-preto pb-[70px] pt-[60px] hidden md:block">
         <div class="grid grid-cols-3 gap-4">
             <div class="flex justify-center items-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <img src="../static/sketchup.webp" alt="Logo 1" class="w-[250px] h-[120px] color-bege object-contain transition-transform transform hover:scale-105" />
@@ -187,7 +196,7 @@
         <h2 class="text-3xl md:text-4xl font-bold text-preto mb-12" >SERVIÇOS</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Serviço 1 -->
-            <div class="relative overflow-hidden bg-cover bg-center h-[427px] w-[320px] max-w-full transition transform duration-500 ease-in-out filter grayscale hover:grayscale-0 hover:scale-105" style="background-image: url('../static/servicos1.webp');">
+            <div class="relative overflow-hidden bg-cover bg-center h-[427px] w-[320px] max-w-full transition transform duration-500 ease-in-out filter md:grayscale hover:grayscale-0 hover:scale-105" style="background-image: url('../static/servicos1.webp');">
                 <div class="absolute left-0 right-0 bottom-0 p-4 top-[200px]">
                     <div class="text-center">
                         <svg class="w-12 h-12 mx-auto mb-2 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -199,7 +208,7 @@
                 </div>
             </div>
             <!-- Serviço 2 -->
-            <div class="relative overflow-hidden bg-cover bg-center h-[427px] w-[320px] max-w-full transition transform duration-500 ease-in-out filter grayscale hover:grayscale-0 hover:scale-105" style="background-image: url('../static/servicos2.webp');">
+            <div class="relative overflow-hidden bg-cover bg-center h-[427px] w-[320px] max-w-full transition transform duration-500 ease-in-out filter md:grayscale hover:grayscale-0 hover:scale-105" style="background-image: url('../static/servicos2.webp');">
                 <div class="absolute left-0 right-0 bottom-0 p-4 top-[200px]">
                     <div class="text-center">
                         <svg class="w-12 h-12 mx-auto mb-2 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -211,7 +220,7 @@
                 </div>
             </div>
             <!-- Serviço 3 -->
-            <div class="relative overflow-hidden bg-cover bg-center h-[427px] w-[320px] max-w-full transition transform duration-500 ease-in-out filter grayscale hover:grayscale-0 hover:scale-105" style="background-image: url('../static/servicos3.webp');">
+            <div class="relative overflow-hidden bg-cover bg-center h-[427px] w-[320px] max-w-full transition transform duration-500 ease-in-out filter md:grayscale hover:grayscale-0 hover:scale-105" style="background-image: url('../static/servicos3.webp');">
                 <div class="absolute left-0 right-0 bottom-0 p-4 top-[200px]">
                     <div class="text-center">
                         <svg class="w-12 h-12 mx-auto mb-2 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -223,7 +232,7 @@
                 </div>
             </div>
             <!-- Serviço 4 -->
-            <div class="relative overflow-hidden bg-cover bg-center h-[427px] w-[320px] max-w-full transition transform duration-500 ease-in-out filter grayscale hover:grayscale-0 hover:scale-105" style="background-image: url('../static/servicos4.webp');">
+            <div class="relative overflow-hidden bg-cover bg-center h-[427px] w-[320px] max-w-full transition transform duration-500 ease-in-out filter md:grayscale hover:grayscale-0 hover:scale-105" style="background-image: url('../static/servicos4.webp');">
                 <div class="absolute left-0 right-0 bottom-0 p-4 top-[200px]">
                     <div class="text-center bottom-0">   
                         <img src="../static/VR icon.webp" class="h-10 w-16 mx-auto mb-3 text-white" alt="">
@@ -239,7 +248,7 @@
 
     
     <!-- Perguntas frequentes -->
-    <div class="bg-preto px-[90px] py-12" id="accordion-flush" data-accordion="collapse" data-active-classes="font-bold text-branco border-b-2 border-branco" data-inactive-classes="text-branco">
+    <div class="bg-preto px-4 md:px-[90px] py-12" id="accordion-flush" data-accordion="collapse" data-active-classes="font-bold text-branco border-b-2 border-branco" data-inactive-classes="text-branco">
         <h1 class="text-3xl text-white mb-4 text-center">Perguntas frequentes</h1>
         <!-- Pregunta 1 -->
         <h2 id="accordion-flush-heading-1">
