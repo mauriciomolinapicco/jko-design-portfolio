@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JKO 3D Studio - Portfolio</title>
+    <link rel="icon" href="../static/favicon.ico">
     <link rel="stylesheet" href="../static/output.css">
     <link rel="stylesheet" href="../static/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -13,7 +14,7 @@
     <!-- Navbar -->
     <nav class="bg-preto py-2">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="../static/logo.webp" alt="Logo JKO Studio 3D" class="self-center h-20 w-auto pl-8 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
             </a>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -63,6 +64,7 @@
  
     <!-- INTERNAS -->
     <div id="internas">
+        <h2 class="titulos-portfolio text-preto text-3xl text-center font-semibold mb-4">Internas</h2>
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-[90px] mb-8">
             <div class="grid-item">
                 <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf2.webp" alt="">
@@ -71,7 +73,8 @@
                 <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto 2.webp" alt="">
                 <img class="mt-4 col-span-2" src="../static/portfolio/apto not 1 ultraHD 5.webp" alt="">
                 <img class="h-auto max-w-full mt-4" src="../static/portfolio/mesinhaA.webp" alt="">
-
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/banheiro-edu/edu-1.webp" alt="">
+                
             </div>
             <div class="grid-item">
                 <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf3.webp" alt="">
@@ -81,6 +84,7 @@
                 <img class="h-auto max-w-full mt-4" src="../static/portfolio/apto 3.webp" alt="">
                 <img class="h-auto max-w-full mt-4" src="../static/portfolio/sofá.webp" alt="">
                 <img class="h-auto max-w-full mt-4" src="../static/portfolio/Nichos.webp" alt="">
+                <img class="h-auto max-w-full mt-4" src="../static/portfolio/banheiro-edu/edu-2.webp" alt="">
 
             </div>
             <div class="grid-item">
@@ -98,29 +102,53 @@
 
 
      <!-- EXTERNAS -->
-    <div id="externas">
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-[90px] mb-8" >
+     <div id="externas">
+        <h2 class="titulos-portfolio text-preto text-3xl text-center font-semibold mb-4">Externas</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-[90px] mb-8">
+    
             <div class="grid-item">
-                <img class="h-auto max-w-full" src="../static/portfolio/tonhao2.webp" alt="">
-
+                <img class="h-auto max-w-full cursor-pointer" src="../static/portfolio/tonhao/tonhao2.webp" alt=""
+                    data-title="Imagen 1" data-description="Descripción de la imagen 1">
             </div>
+    
             <div class="grid-item">
-                <img class="h-auto max-w-full" src="../static/portfolio/tonhao1.webp" alt="">
-                <img class="h-auto max-w-full mt-4" src="../static/portfolio/tonhao3.webp" alt="">
-                <img class="h-auto max-w-full mt-4" src="../static/portfolio/tonhao4.webp" alt="">
+                <img class="h-auto max-w-full cursor-pointer" src="../static/portfolio/tonhao/tonhao6.webp" alt=""
+                    data-title="Imagen 2" data-description="Descripción de la imagen 2">
+                <img class="h-auto max-w-full mt-4 cursor-pointer" src="../static/portfolio/tonhao/T01.webp" alt=""
+                    data-title="Imagen 3" data-description="Descripción de la imagen 3">
+                <img class="h-auto max-w-full mt-4 cursor-pointer" src="../static/portfolio/tonhao/T03.webp" alt=""
+                    data-title="Imagen 4" data-description="Descripción de la imagen 4">
             </div>
+    
             <div class="grid-item">
-                <img class="h-auto max-w-full" src="../static/portfolio/tonhao6.webp" alt="">
-                <img class="h-auto max-w-full mt-4" src="../static/portfolio/tonhao5.webp" alt="">
+                <img class="h-auto max-w-full cursor-pointer" src="../static/portfolio/tonhao/tonhao5.webp" alt=""
+                    data-title="Imagen 5" data-description="Descripción de la imagen 5">
+                <img class="h-auto max-w-full mt-4 cursor-pointer" src="../static/portfolio/tonhao/T02.webp" alt=""
+                    data-title="Imagen 6" data-description="Descripción de la imagen 6">
+            </div>
+    
+        </div>
+    </div>
+    
+    
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+        <div class="relative bg-preto p-6 rounded-lg md:mx-20 pr-8">
+            <button id="close-btn" class="absolute top-4 right-4 text-white text-3xl z-50">&times;</button>
+            <div class="image-container overflow-hidden relative">
+                <img id="lightbox-image" src="" alt="" class="w-full h-auto mb-4 rounded-lg transition-transform transform">
             </div>
         </div>
     </div>
+    
+
 
      <!-- Isometricas -->
     <div id="isometricas">
+        <h2 class="titulos-portfolio text-preto text-3xl text-center font-semibold mb-4">Isometricas</h2>
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-[90px]">
             <div class="grid-item">
-                <img class="h-auto max-w-full" src="../static/portfolio/Quarto-inf2.webp" alt="">
+                <img class="h-auto max-w-full" src="../static/portfolio/isometricas/iso01.webp" alt="">
                 <img class="h-auto max-w-full mt-4" src="../static/portfolio/Banheiro2.webp" alt="">
                 <img class="h-auto max-w-full mt-4" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
             </div>

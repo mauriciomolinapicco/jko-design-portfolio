@@ -48,3 +48,26 @@
   }
 
 
+
+  #lightbox-image {
+    cursor: zoom-in;
+    transition: transform 0.3s ease, transform-origin 0.3s ease; /* Transición suave para el zoom */
+    
+    max-width: 90vw; /* Ajusta el tamaño máximo de la imagen al 90% del ancho de la ventana */
+    max-height: 90vh; /* Ajusta el tamaño máximo de la imagen al 80% de la altura de la ventana */
+    
+    object-fit: contain; /* Evita que la imagen se distorsione */
+}
+
+/* Zoom cuando se hace clic en la imagen */
+#lightbox-image.zoomed {
+    transform: scale(2); /* Escala la imagen al 200% al hacer clic */
+    cursor: zoom-out;
+    
+    max-width: 100vw; /* Asegura que la imagen ocupe todo el ancho de la ventana */
+    max-height: 100vh; /* Asegura que la imagen ocupe todo el alto de la ventana */
+    
+    object-fit: contain;
+}
+
+
