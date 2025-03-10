@@ -45,9 +45,9 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // Ya le doy el color diferente al botón de "Todos"
-    if (todasBtn) {
-        todasBtn.classList.add("bg-bege", "text-white", "shadow-lg");
-    }
+   
+    todasBtn.classList.add("bg-bege", "text-white");
+    
 
 });
 
@@ -61,10 +61,10 @@ const isometricas = document.getElementById("isometricas");
 const titulos = document.querySelectorAll(".titulos-portfolio");
 
 function resetButtons() {
-    todasBtn.classList.remove("bg-bege", "text-white", "border-none", "shadow-lg");
-    internasBtn.classList.remove("bg-bege", "text-white", "border-none", "shadow-lg");
-    externasBtn.classList.remove("bg-bege", "text-white", "border-none", "shadow-lg");
-    isometricasBtn.classList.remove("bg-bege", "text-white", "border-none", "shadow-lg");
+    todasBtn.classList.remove("bg-bege", "text-white");
+    internasBtn.classList.remove("bg-bege", "text-white");
+    externasBtn.classList.remove("bg-bege", "text-white");
+    isometricasBtn.classList.remove("bg-bege", "text-white");
 }
 
 function hideTitulos() {
@@ -79,43 +79,43 @@ function showTitulos() {
     }) 
 }
 
-document.getElementById("todasBtn").addEventListener("click", function() {
+todasBtn.addEventListener("click", function() {
     resetButtons();
     showTitulos();
-    todasBtn.classList.add("bg-bege", "text-white", "border-none", "shadow-lg");
+    todasBtn.classList.add("bg-bege", "text-white");
 
     internas.style.display = "block";
     externas.style.display = "block";
     isometricas.style.display = "block";
 })
 
-document.getElementById("internasBtn").addEventListener("click", function() {
+internasBtn.addEventListener("click", function() {
     resetButtons();
     hideTitulos();
 
-    internasBtn.classList.add("bg-bege", "text-white", "border-none", "shadow-lg");
+    internasBtn.classList.add("bg-bege", "text-white");
 
     internas.style.display = "block";
     externas.style.display = "none";
     isometricas.style.display = "none";
 })
 
-document.getElementById("externasBtn").addEventListener("click", function() {
+externasBtn.addEventListener("click", function() {
     resetButtons();
     hideTitulos();
 
-    externasBtn.classList.add("bg-bege", "text-white", "border-none", "shadow-lg");
+    externasBtn.classList.add("bg-bege", "text-white");
 
     internas.style.display = "none";
     externas.style.display = "block";
     isometricas.style.display = "none";
 })
 
-document.getElementById("isometricasBtn").addEventListener("click", function() {
+isometricasBtn.addEventListener("click", function() {
     resetButtons();
     hideTitulos();
 
-    isometricasBtn.classList.add("bg-bege", "text-white", "border-none", "shadow-lg");
+    isometricasBtn.classList.add("bg-bege", "text-white");
 
     internas.style.display = "none";
     externas.style.display = "none";

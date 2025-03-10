@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         'preto': '#222222',
+        'pretoclaro': '#6d6057',
         'branco': '#F9F9F9',
         'branco-2': '#FDFDFD',
         'bege': '#C09A75',
