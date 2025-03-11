@@ -8,6 +8,8 @@
     <link rel="icon" href="../static/favicon.ico">
     <link rel="stylesheet" href="../static/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body class="font-body">
 
@@ -41,12 +43,12 @@
             </div>
         </div>
     </nav>  -->
-    <nav class="absolute top-0 left-0 w-full bg-transparent z-50 pt-8">
+    <nav class="absolute top-0 left-0 w-full bg-preto md:bg-transparent z-50 pt-0">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="../static/logo.webp" alt="Logo JKO Studio 3D" class="self-center h-20 w-auto pl-8 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
             </a>
-            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-branco rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -72,7 +74,7 @@
     </nav>  
 
     <!-- Formulario de Contacto -->
-    <section id="contact" class="pt-[140px] h-screen pb-60" style="background-image: url('../static/predios.webp'); background-size: cover;">
+    <section id="contact" class="pt-[90px] md:pt-[100px] pt-[140px] h-screen pb-60" style="background-image: url('../static/predios.webp'); background-size: cover;">
         <div class="container mx-auto">
             <div class="max-w-lg mx-auto bg-white p-8 shadow-lg">
                 <h2 class="text-3xl font-bold text-center mb-8">Contato</h2>
@@ -93,13 +95,20 @@
                         <button type="submit" class="w-full bg-preto text-white py-2 px-4 rounded-md shadow-lg hover:bg-bege transition duration-300 ease-in-out transform hover:scale-105">Enviar</button>
                     </div>
                 </form>
+                <div class="bg-branco mt-8">
+                    <p class="text-center mb-4">Ou</p>
+                    <a href="https://wa.me/554384233952?text=Oi%21%20Estou%20interessado/a%20nos%20seus%20servi%C3%A7os%2C%20quero%20fazer%20um%20or%C3%A7amento" class="text-blue-500 hover:text-blue-400"> <p class="text-center">Entre en contato pelo WhatsApp</p></a>
+                </div>
             </div>
+            
         </div>
+
+        
     </section>
 
 
     <!-- Footer -->
-    <footer class="shadow bg-transparent absolute bottom-0 w-full ">
+    <footer class="shadow w-full bg-preto pt-8 hidden md:block">
         <div class="w-full max-w-screen-xl mx-auto pb-4">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <!-- <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
@@ -125,6 +134,12 @@
             <span class="block text-sm sm:text-center text-gray-400">© 2024 <a href="#" class="hover:underline">JKO 3D Studio™</a>. All Rights Reserved.</span>
         </div>
     </footer>
+
+     <!-- WhatsApp Floating Button -->
+     <a href="https://wa.me/554384233952?text=Oi%21%20Estou%20interessado/a%20nos%20seus%20servi%C3%A7os%2C%20quero%20fazer%20um%20or%C3%A7amento" 
+     class="fixed bottom-4 right-4 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300 ease-in-out z-40">
+     <i class="fab fa-whatsapp fa-2x"></i>
+  </a>
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
 

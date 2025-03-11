@@ -40,6 +40,7 @@ foto.addEventListener('mouseleave', function() {
     this.classList.add('grayscale');
 });
 
+
 // Navbar hamburger menu
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('[data-collapse-toggle]');
