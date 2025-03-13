@@ -83,8 +83,11 @@
             <div class="md:pl-[10px] px-4">
                 <h1 class="text-3xl md:text-4xl font-bold text-preto mb-4 items-center text-center">FAÇA COM QUE SEUS PROJETOS SAIAM DO PAPEL</h1>
                 <h2 class="text-xl md:text-2xl text-preto font-semibold mt-8md:mb-8 text-center text-center">Transforme seus sonhos em uma realidade tridimensional, visualizando cada detalhe e trazendo suas ideias à vida com precisão e criatividade.</h2>
-                <div class="flex items-center mt-4 text-xl text-preto text-center hidden lg:block animate-bounce">
+                <div class="flex items-center mt-4 text-xl text-preto text-center hidden lg:block">
                     <span>Passe o mouse na imagem e veja a magia acontecer!</span>
+                </div>
+                <div class="flex mt-4 text-xl text-preto justify-center w-full text-center block md:hidden">
+                    <span>Clique na imagem pra ver a magia!</span>
                 </div>
             </div>
         </div>
@@ -104,35 +107,75 @@
 
 
     
-    <!-- Conheça a tecnologia que revolucionou page -->
-    <div class="bg-bege-claro p-8 py-8 flex flex-col md:flex-row items-center">
-        <!-- TExto para pantalla chica -->
+    <!-- Video page -->
+    <!-- <div class="bg-bege-claro p-8 py-8 flex flex-col md:flex-row items-center">
         <div class="flex-1 flex flex-col items-center justify-center text-center text-preto md:pr-[90px] md:ml-[90px] mb-8 block md:hidden" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
             <h1 class="text-3xl md:text-4xl font-bold mb-2">Conheça a tecnologia que revolucionou o mercado imobiliário</h1> <br>
             <h2 class="text-xl md:text-2xl mb-4">Descubra como nossas visualizações 3D transformam projetos imobiliários em experiências imersivas e detalhadas, conquistando clientes e acelerando vendas</h2> <br>
             <a href="portfolio.html" class="text-center border border-2 border-preto w-[150px] mx-auto font-md text-preto hover:text-white hover:bg-bege hover:border-bege py-2 px-6 text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg inline-block">Saiba mais</a>
         </div>
 
-        <!-- Imagen -->
         <div class="flex-1 p-4 md:flex items-center justify-center lg:pl-[90px]" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
-            <!-- <img src="../static/portfolio/internas/SM6.webp" alt="" class="max-w-xl"> -->
-            <!-- <img src="../static/portfolio/internas/S2.webp" alt="" class="max-w-2xl"> -->
             <video loop autoplay muted controls>
                 <source src="../static/videoComprimido.mp4" type="video/mp4" class="w-5xl">
               </video>              
         </div>
-        <!-- Texto para pantalla grande -->
         <div class="h-full flex-1 flex items-center justify-center text-center text-preto pr-[90px] ml-[90px] hidden md:block" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
             <h1 class="text-3xl lg:text-4xl font-bold mb-2">Conheça a tecnologia que revolucionou o mercado imobiliário</h1> <br>
             <h2 class="text-xl md:text-2xl mb-4">Descubra como nossas visualizações 3D transformam projetos imobiliários em experiências imersivas e detalhadas, conquistando clientes e acelerando vendas</h2> <br>
             <a href="portfolio.html" class="text-center border border-2 border-preto w-[150px] mx-auto font-md text-preto hover:text-white hover:bg-bege hover:border-bege py-2 px-6 text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg inline-block">Saiba mais</a>
         </div>
+    </div>     -->
+
+
+
+<!-- Sección espectacular con video y botón -->
+<div class="md:min-h-screen w-full flex flex-col items-center justify-center relative overflow-hidden bg-bege-claro">
+    <!-- Texto para pantalla chica -->
+    <div class="block md:hidden flex flex-col items-center text-center mt-6 px-2">
+        <h1 class="text-3xl mb-6 animate-fade-in font-semibold">
+            Transformamos suas ideias em realidade
+        </h1>
+        <h4 class="text-lg mb-4">
+            Descubra como nossas visualizações 3D transformam projetos imobiliários em experiências imersivas
+        </h4>
     </div>
     
+    <!-- Video de fondo -->
+    <video autoplay loop muted class="w-full h-auto md:absolute md:inset-0 md:w-full md:h-full object-cover">
+        <source src="../static/videoComprimido.mp4" type="video/mp4">
+    </video>
+
+    <!-- Contenido centrado en el video -->
+    <div class="relative z-10 text-center text-branco px-4 p-8">
+        <!-- Título -->
+        <h1 class="text-6xl md:text-6xl font-bold mb-6 animate-fade-in text-shadow hidden md:block">
+            Transformamos suas ideias em realidade
+        </h1>
+
+        <!-- Subtítulo -->
+        <p class="text-3xl mb-8 max-w-2xl mx-auto animate-fade-in delay-200 text-shadow hidden md:block">
+            Descubra como nossas visualizações 3D transformam projetos imobiliários em experiências imersivas
+        </p>
+
+        <!-- Botón -->
+        <div class="hidden md:block">
+            <a href="#portfolio" class="text-shadow inline-block text-2xl bg-transparent text-branco font-semibold py-3 px-8 border border-2 border-bege hover:bg-bege hover:text-white hover:border-bege rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 animate-fade-in delay-400">
+                Ver portfolio
+            </a>
+        </div>
+    </div>
+
+</div>
 
 
 
-    <!-- Processo -->
+
+
+
+
+
+    <!-- Processo 4 etapas -->
     <section id="process" class="pt-[70px] pb-[30px] bg-preto">
         <div class="container mx-auto text-center" data-aos="fade-up" data-aos-duration="1500">
             <h2 class="text-3xl md:text-4xl font-bold mb-4 text-branco transition-all duration-200">PROCESSO DE TRABALHO</h2>
@@ -251,12 +294,13 @@
 
 
     
-    <!-- Perguntas frequentes -->
-    <div class="bg-preto px-20 py-12" id="accordion-flush" data-accordion="collapse">
+<!-- Perguntas frequentes -->
+<div class="bg-preto py-12" id="accordion-flush" data-accordion="collapse" data-active-classes="font-bold text-branco border-b-2 border-branco" data-inactive-classes="text-branco">
+    <div class="md:mx-20 px-4">
         <h1 class="text-3xl text-white mb-4 text-center">Perguntas frequentes</h1>
         <!-- Pregunta 1 -->
         <h2 id="accordion-flush-heading-1">
-            <button type="button" class="flex items-center justify-between w-full py-5 rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-1" aria-expanded="false" aria-controls="accordion-flush-body-1">
+            <button type="button" class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-1" aria-expanded="false" aria-controls="accordion-flush-body-1">
                 <span class="text-lg">Quais tipos de projetos vocês atendem?</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -270,7 +314,7 @@
         </div>
         <!-- Pregunta 2 -->
         <h2 id="accordion-flush-heading-2">
-            <button type="button" class="flex items-center justify-between w-full py-5 rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+            <button type="button" class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
                 <span class="text-lg">Qual é o tempo de entrega para o meu projeto?</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -284,7 +328,7 @@
         </div>
         <!-- Pregunta 3 -->
         <h2 id="accordion-flush-heading-3">
-            <button type="button" class="flex items-center justify-between w-full py-5 rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+            <button type="button" class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
                 <span class="text-lg">Como funciona o processo de revisão do meu projeto?</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -297,6 +341,7 @@
             </div>
         </div>
     </div>
+</div>
         
       
 
