@@ -1190,6 +1190,14 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
+.bg-opacity-80{
+  --tw-bg-opacity: 0.8;
+}
+
+.bg-opacity-90{
+  --tw-bg-opacity: 0.9;
+}
+
 .bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1449,6 +1457,10 @@ video {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-thin{
+  font-weight: 100;
 }
 
 .leading-tight{
