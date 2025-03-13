@@ -20,26 +20,26 @@
             </a>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <svg class="w-5 h-5 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
                 </svg>
             </button>
-            <div class="hidden w-full md:block md:w-auto pr-8" id="navbar-default">
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border bg-preto border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent">
                     <li>
-                        <a href="index.html" class="block py-4 px-3 text-bege rounded text-2xl hover:text-bege font-semibold md:p-0 text-center">Inicio</a>
+                        <a href="index.html" class="block py-8 px-3 text-bege rounded text-2xl md:text-lg hover:text-bege font-semibold md:p-0 text-center">Inicio</a>
                     </li>
                     <hr class="font-medium">
                     <li>
-                        <a href="sobre.html" class="block py-4 px-3 text-branco rounded text-2xl hover:text-bege font-semibold md:p-0 text-center" >Sobre mim</a>
+                        <a href="sobre.html" class="block py-8 px-3 text-branco rounded text-2xl md:text-lg hover:text-bege font-semibold md:p-0 text-center" >Sobre mim</a>
                     </li>
                     <hr class="font-medium">
                     <li>
-                        <a href="portfolio.html" class="block py-4 px-3 text-branco rounded text-2xl hover:text-bege font-semibold md:p-0 text-center" >Portfolio</a>
+                        <a href="portfolio.html" class="block py-8 px-3 text-branco rounded text-2xl md:text-lg hover:text-bege font-semibold md:p-0 text-center" >Portfolio</a>
                     </li>
                     <hr class="font-medium">
                     <li>
-                        <a href="contato.html" class="block py-4 px-3 text-branco rounded text-2xl hover:text-bege font-semibold md:p-0 text-center" >Contato</a>
+                        <a href="contato.html" class="block py-8 px-3 text-branco rounded text-2xl md:text-lg hover:text-bege font-semibold md:p-0 text-center" >Contato</a>
                     </li>
                 </ul>
             </div>
@@ -58,7 +58,7 @@
                 Transforme suas visões em <span class="text-bege">realidade</span>
               </h1>
             <!-- duplicando el titulo pq no puedo configurar tamano responsive -->
-            <h1 class="text-5xl px-2 block md:hidden font-bold leading-tight mt-12 mb-4">
+            <h1 class="text-4xl px-2 block md:hidden font-bold leading-tight mt-12 mb-4">
             Transforme suas visões em <span class="text-bege">realidade</span>
             </h1>
 
@@ -173,11 +173,6 @@
 
 
 
-
-
-
-
-
     <!-- Processo 4 etapas -->
     <section id="process" class="pt-[70px] pb-[30px] bg-preto">
         <div class="container mx-auto text-center" data-aos="fade-up" data-aos-duration="1500">
@@ -244,7 +239,7 @@
 <section id="services" class="py-14 px-4 bg-branco-2">
     <div class="container mx-auto text-center">
         <h2 class="text-3xl md:text-4xl font-bold text-preto mb-12" >SERVIÇOS</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 place-items-center">
             <!-- Serviço 1 -->
             <div class="relative overflow-hidden bg-cover bg-center h-[427px] w-[320px] max-w-full transition transform duration-500 ease-in-out filter md:grayscale hover:grayscale-0 hover:scale-105" style="background-image: url('../static/servicos1.webp');">
                 <div class="absolute left-0 right-0 bottom-0 p-4 top-[200px]">
@@ -303,7 +298,7 @@
         <h1 class="text-3xl text-white mb-4 text-center">Perguntas frequentes</h1>
         <!-- Pregunta 1 -->
         <h2 id="accordion-flush-heading-1">
-            <button type="button" class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-1" aria-expanded="false" aria-controls="accordion-flush-body-1">
+            <button type="button" class="flex items-center justify-center md:justify-between w-full py-5 font-medium rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-1" aria-expanded="false" aria-controls="accordion-flush-body-1">
                 <span class="text-lg">Quais tipos de projetos vocês atendem?</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -317,7 +312,7 @@
         </div>
         <!-- Pregunta 2 -->
         <h2 id="accordion-flush-heading-2">
-            <button type="button" class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+            <button type="button" class="flex items-center justify-center md:justify-between w-full py-5 font-medium rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
                 <span class="text-lg">Qual é o tempo de entrega para o meu projeto?</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -331,7 +326,7 @@
         </div>
         <!-- Pregunta 3 -->
         <h2 id="accordion-flush-heading-3">
-            <button type="button" class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+            <button type="button" class="flex items-center justify-center md:justify-between w-full py-5 font-medium rtl:text-right text-branco border-b border-gray-200 dark:border-gray-700 dark:text-branco gap-3" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
                 <span class="text-lg">Como funciona o processo de revisão do meu projeto?</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -350,29 +345,28 @@
 
     
     <!-- Footer -->
-    <footer class="shadow bg-preto">
-        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-            <div class="sm:flex sm:items-center sm:justify-between">
-                <img src="../static/jko-variacao.webp" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse h-16 pl-16" alt="">
-                <ul class="flex flex-wrap items-center mb-6 text-sm sm:mb-0 text-gray-400">
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6 mr-4">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6 mr-4">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6 mr-4">Licensing</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
-            <span class="block text-sm sm:text-center text-gray-400">© 2024 <a href="#" class="hover:underline">JKO 3D Studio™</a>. All Rights Reserved.</span>
+<footer class="shadow bg-preto">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between text-center sm:text-left">
+            <img src="../static/jko-variacao.webp" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse h-16 md:pl-16 mx-auto sm:mx-0" alt="">
+
+            <ul class="flex flex-wrap items-center mb-6 text-sm sm:mb-0 text-gray-400 justify-center sm:justify-start">
+                <li>
+                    <a href="sobre.html" class="hover:underline me-4 md:me-6 mr-4">Sobre</a>
+                </li>
+                <li>
+                    <a href="portfolio.html" class="hover:underline me-4 md:me-6 mr-4">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contato.html" class="hover:underline">Contact</a>
+                </li>
+            </ul>
         </div>
-    </footer>
+        <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
+        <span class="block text-sm sm:text-center text-gray-400">© 2024 <a href="#" class="hover:underline">JKO 3D Studio™</a>. All Rights Reserved.</span>
+    </div>
+</footer>
+
 
 
     <!-- WhatsApp Floating Button -->
@@ -386,110 +380,3 @@
 
 </body>
 </html>
-
-
-
-    <!-- these didnt make the cut -->
-    <!-- Imagen B&W 
-    <div class="bg-branco-2 p-6 shadow-md rounded-lg">
-        <div class="flex flex-col md:flex-row items-center">
-            <img id="byn-foto" class="w-1/2 sm:w-full h-auto transition duration-300 ease-in-out rounded-lg filter grayscale hover:grayscale-0" src="../static/hotel-1.webp" alt="Imagem" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"/>
-            <div class="mt-4 md:mt-0 md:ml-6 flex-1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
-                <h2 class="text-2xl md:text-4xl font-semibold mb-2 text-gray-800">Design Moderno</h2>
-                <p class="text-gray-700 text-base md:text-lg">Nosso design moderno incorpora os últimos avanços em arquitetura para criar espaços que são tão funcionais quanto esteticamente agradáveis.</p>
-            </div>
-        </div>
-    </div>  -->
-
-
-    <!-- Serviços 
-    <section id="services" class="py-20 px-4 bg-branco-2">
-        <div class="container mx-auto text-center" >
-            <h2 class="text-3xl md:text-4xl font-bold text-preto mb-4" data-aos="fade-up" data-aos-duration="1500">Serviços</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                
-                <div class="p-4 px-8 mt-8 rounded-lg transform transition-transform duration-300 hover:scale-110 hover:shadow-lg bg-white" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                    <svg class="w-12 h-12 mx-auto mb-2 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16M6 6v12M18 6v12" />
-                    </svg>
-                    <h3 class="text-lg font-semibold text-gray-900">Modelagem 3D</h3>
-                    <p class="mt-2 text-gray-800">Criação de modelos 3D precisos e detalhados para seus projetos arquitetônicos.</p>
-                </div>
-                
-                <div class="p-4 px-8 mt-8 rounded-lg transform transition-transform duration-300 hover:scale-110 hover:shadow-lg bg-white" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
-                    <svg class="w-12 h-12 mx-auto mb-2 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3h14a1 1 0 011 1v16a1 1 0 01-1 1H5a1 1 0 01-1-1V4a1 1 0 011-1z" />
-                    </svg>
-                    <h3 class="text-lg font-semibold text-gray-900">Renderização</h3>
-                    <p class="mt-2 text-gray-800">Renderizações de alta qualidade que destacam os detalhes e a estética dos seus designs.</p>
-                </div>
-                
-                <div class="p-4 px-8 mt-8 rounded-lg transform transition-transform duration-300 hover:scale-110 hover:shadow-lg bg-white" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-                    <svg class="w-12 h-12 mx-auto mb-2 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 3a1 1 0 00-1 1v12a1 1 0 001 1h10a1 1 0 001-1V4a1 1 0 00-1-1H7z" />
-                    </svg>
-                    <h3 class="text-lg font-semibold text-gray-900">Animações 3D</h3>
-                    <p class="mt-2 text-gray-800">Criação de animações para visualizar seus projetos em movimento.</p>
-                </div>
-                
-                <div class="p-4 px-8 mt-8 rounded-lg transform transition-transform duration-300 hover:scale-110 hover:shadow-lg bg-white" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
-                    <svg class="w-12 h-12 mx-auto mb-2 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 3v18l16-9L4 3z" />
-                    </svg>
-                    <h3 class="text-lg font-semibold text-gray-900">Visualização VR</h3>
-                    <p class="mt-2 text-gray-800">Experiências de realidade virtual para uma imersão total em seus designs.</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-            
-
-
-    <!-- reveal image w daisy ui
-    <div class="">
-        <div class="diff aspect-[16/9]">
-            <div class="diff-item-1">
-                <img alt="daisy" src="../static/exterior-lapiz.webp" />
-            </div>
-            <div class="diff-item-2">
-                <img alt="daisy" src="../static/exterior.webp" />
-            </div>
-            <div class="diff-resizer"></div>
-        </div>
-    </div> -->    
-        
-
-    <!-- Timeline
-    <div class="bg-preto p-8 flex flex-col items-center">
-        <h2 class="text-2xl font-bold text-white mb-6">Como é o proceso?</h2>
-        <ul class="relative border-s border-gray-200 bg-preto">
-            <li class="mb-10 ms-6">
-                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
-                    <svg class="w-2.5 h-2.5 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm12-6a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-3a1 1 0 0 1 1-1Zm-4 1a1 1 0 0 0-1-1H5a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1Z"/>
-                    </svg>
-                </span>
-                <h3 class="flex items-center mb-1 text-lg font-semibold text-white">Flowbite Library v1.0.0</h3>
-                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
-            </li>
-            <li class="mb-10 ms-6">
-                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
-                    <svg class="w-2.5 h-2.5 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm12-6a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-3a1 1 0 0 1 1-1Zm-4 1a1 1 0 0 0-1-1H5a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1Z"/>
-                    </svg>
-                </span>
-                <h3 class="mb-1 text-lg font-semibold text-white">Flowbite Library v1.0.0</h3>
-                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
-            </li>
-            <li class="ms-6">
-                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
-                    <svg class="w-2.5 h-2.5 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm12-6a1 1 0 0 1 1 1v3a1 1 0 0 1-2 0v-3a1 1 0 0 1 1-1Zm-4 1a1 1 0 0 0-1-1H5a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1Z"/>
-                    </svg>
-                </span>
-                <h3 class="mb-1 text-lg font-semibold text-white">Flowbite Library v1.0.0</h3>
-                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
-            </li>
-        </ul>
-    </div> -->
