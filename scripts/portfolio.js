@@ -47,11 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Ya le doy el color diferente al botón de "Todos"
    
     todasBtn.classList.add("bg-bege", "text-white");
-    
-
 });
-
-
 
 
 // LOGICA DE BOTONES DE PORTFOLIO

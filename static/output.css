@@ -998,6 +998,10 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -1377,6 +1381,22 @@ video {
   padding-top: 90px;
 }
 
+.pt-\[100px\]{
+  padding-top: 100px;
+}
+
+.pt-\[120px\]{
+  padding-top: 120px;
+}
+
+.pt-\[110px\]{
+  padding-top: 110px;
+}
+
+.pt-4{
+  padding-top: 1rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1728,8 +1748,20 @@ video {
     width: 100%;
   }
 
+  .sm\:w-auto{
+    width: auto;
+  }
+
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .sm\:flex-row{
@@ -1742,6 +1774,10 @@ video {
 
   .sm\:justify-start{
     justify-content: flex-start;
+  }
+
+  .sm\:justify-center{
+    justify-content: center;
   }
 
   .sm\:justify-between{
@@ -1890,6 +1926,10 @@ video {
 
   .md\:pl-16{
     padding-left: 4rem;
+  }
+
+  .md\:pt-\[140px\]{
+    padding-top: 140px;
   }
 
   .md\:text-2xl{

@@ -13,36 +13,7 @@
 </head>
 <body class="font-body bg-bege-claro">
 
-    <!-- Navbar -->
-    <!-- <nav class="bg-preto py-2">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="../static/logo.webp" alt="Logo JKO Studio 3D" class="self-center h-20 w-auto pl-8 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
-            </a>
-            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                </svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul class="font-medium flex flex-col p-4 md:p-0 mb-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent">
-                    <li>
-                        <a href="index.html" class="block py-2 px-3 text-branco rounded hover:text-bege md:p-0">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="sobre.html" class="block py-2 px-3 text-branco rounded hover:text-bege md:p-0">Sobre mim</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html" class="block py-2 px-3 text-bege rounded hover:text-bege md:p-0">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="contato.html" class="block py-2 px-3 text-branco rounded hover:text-bege md:p-0">Contato</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>   -->
+
     <!-- Navbar -->
     <nav class="bg-preto py-2">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -51,7 +22,7 @@
             </a>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <svg class="w-5 h-5 text-branco" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
                 </svg>
             </button>
@@ -80,8 +51,7 @@
 
     <!--Portfolio 1-->
     <h2 class="text-preto text-3xl text-center font-semibold mt-12">Portfolio</h2>
-
-    <div class="flex items-center justify-center py-4"> 
+    <div class="grid grid-cols-2 sm:flex sm:items-center sm:justify-center pt-4"> 
         <button class="border border-preto px-4 py-2 mb-8 mx-3 hover:bg-bege hover:border-bege hover:text-white transition duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
             id="todasBtn"
             >Todas</button>
@@ -100,7 +70,7 @@
     <!-- INTERNAS -->
     <div id="internas">
         <h2 class="titulos-portfolio text-preto text-3xl text-center font-semibold mb-4">Internas</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 px-6 md:px-[90px] mb-8">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 px-6 md:px-[90px] mb-8" id="imageGrid">
             <div class="grid-item">
                 <img class="cursor-pointer h-auto max-w-full mb-4" src="../static/portfolio/internas/SM8.webp" alt="">
                 <img class="cursor-pointer h-auto max-w-full mb-4" src="../static/portfolio/internas/SM9.webp" alt="">
