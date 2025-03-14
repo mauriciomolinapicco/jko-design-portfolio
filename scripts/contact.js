@@ -41,12 +41,7 @@ form.addEventListener('submit', function(event) {
             .catch(error => {
               // Si hubo un error
               console.error('Error:', error);
-              statusMessage.textContent = "Hubo un error al enviar el formulario. Intenta nuevamente.";
+              statusMessage.textContent = "Houve um erro ao enviar o formulario. Tente novamente ou entre em contato pelo WhatsApp.";
             });
         }, 2000)
-
-    
-
-    
-
 })
