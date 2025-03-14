@@ -53,7 +53,7 @@
         <div class="container mx-auto">
             <div class="max-w-lg mx-auto bg-white p-8 shadow-lg">
                 <h2 class="text-3xl font-bold text-center mb-8">Contato</h2>
-                <form action="#" method="POST" class="space-y-6">
+                <form id="contact-form" method="POST" class="space-y-6">
                     <div>
                         <label for="name" class="block text-sm font-medium text-gray-700">Nome</label>
                         <input type="text" id="name" name="name" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-bege focus:border-bege">
@@ -70,6 +70,7 @@
                         <button type="submit" class="w-full bg-preto text-white py-2 px-4 rounded-md shadow-lg hover:bg-bege transition duration-300 ease-in-out transform hover:scale-105">Enviar</button>
                     </div>
                 </form>
+                <p id="statusMessage"></p>
                 <div class="bg-branco mt-8">
                     <p class="text-center mb-4">Ou</p>
                     <a href="https://wa.me/554384233952?text=Oi%21%20Estou%20interessado/a%20nos%20seus%20servi%C3%A7os%2C%20quero%20fazer%20um%20or%C3%A7amento" 
@@ -120,5 +121,5 @@
   </a>
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
-
+    <script src="../scripts/contact.js"></script>
 </body>
