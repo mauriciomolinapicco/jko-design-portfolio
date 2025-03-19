@@ -108,39 +108,28 @@
 </div>
 
 
+<!-- Sección video y botón -->
+<div class="w-full flex flex-col items-center justify-center relative overflow-hidden bg-bege-claro h-screen">
 
-
-<!-- Sección  video y botón -->
-<div class="md:min-h-screen w-full flex flex-col items-center justify-center relative overflow-hidden bg-bege-claro">
-    <!-- Texto para pantalla chica -->
-    <div class="block md:hidden flex flex-col items-center text-center mt-6 px-2">
-        <h1 class="text-3xl mb-4 animate-fade-in font-semibold px-4">
-            Transformamos suas ideias em realidade
-        </h1>
-        <h4 class="text-lg mb-6 px-4">
-            Descubra como nossas visualizações 3D transformam projetos imobiliários em experiências imersivas
-        </h4>
-    </div>
-    
-    <!-- Video de fondo -->
-    <video autoplay loop muted class="w-full h-auto md:absolute md:inset-0 md:w-full md:h-full object-cover">
+    <video autoplay loop muted class="w-full h-screen object-cover absolute inset-0">
         <source src="./static/videoComprimido.mp4" type="video/mp4">
     </video>
 
     <!-- Contenido centrado en el video -->
     <div class="relative z-10 text-center text-branco px-4 p-8">
+
         <!-- Título -->
-        <h1 class="text-6xl md:text-6xl font-bold mb-6 animate-fade-in text-shadow hidden md:block">
+        <h1 class="text-5xl md:text-6xl font-bold mb-6 animate-fade-in text-shadow">
             Transformamos suas ideias em realidade
         </h1>
 
         <!-- Subtítulo -->
-        <p class="text-3xl mb-8 max-w-2xl mx-auto animate-fade-in delay-200 text-shadow hidden md:block">
+        <p class="text-2xl mb-8 max-w-2xl mx-auto animate-fade-in delay-200 text-shadow">
             Descubra como nossas visualizações 3D transformam projetos imobiliários em experiências imersivas
         </p>
 
         <!-- Botón -->
-        <div class="hidden md:block">
+        <div>
             <a href="#portfolio" class="text-shadow inline-block text-2xl bg-transparent text-branco font-semibold py-3 px-8 border border-2 border-bege hover:bg-bege hover:text-white hover:border-bege rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 animate-fade-in delay-400">
                 Ver portfolio
             </a>
@@ -148,6 +137,7 @@
     </div>
 
 </div>
+
 
 
 

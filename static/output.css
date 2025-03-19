@@ -1459,6 +1459,11 @@ video {
   line-height: 1.5rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -2000,6 +2005,14 @@ video {
 }
 
 @media (min-width: 1024px){
+  .lg\:absolute{
+    position: absolute;
+  }
+
+  .lg\:inset-0{
+    inset: 0px;
+  }
+
   .lg\:my-8{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -2035,8 +2048,20 @@ video {
     display: block;
   }
 
+  .lg\:hidden{
+    display: none;
+  }
+
   .lg\:h-\[500px\]{
     height: 500px;
+  }
+
+  .lg\:h-full{
+    height: 100%;
+  }
+
+  .lg\:min-h-screen{
+    min-height: 100vh;
   }
 
   .lg\:w-1\/2{
@@ -2045,6 +2070,10 @@ video {
 
   .lg\:w-\[60\%\]{
     width: 60%;
+  }
+
+  .lg\:w-full{
+    width: 100%;
   }
 
   .lg\:grid-cols-4{
