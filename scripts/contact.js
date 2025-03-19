@@ -28,19 +28,17 @@ form.addEventListener('submit', function(event) {
           })
             .then(response => {
               if (!response.ok) {
-                throw new Error('Error al enviar el formulario');
+                throw new Error('Erro ao enviar o formulario');
               }
-              return response.json();  // Suposición de que el servidor devuelve JSON
+              return response.json();  
             })
             .then(data => {
               // Si todo salió bien
-              console.log('Respuesta del servidor:', data);
-              statusMessage.textContent = "¡Formulario enviado con éxito!";
+              statusMessage.textContent = "O formulario foi enviado com sucesso!";
               form.reset();  // Limpiar el formulario
             })
             .catch(error => {
-              // Si hubo un error
-              console.error('Error:', error);
+              console.error('Erro:', error);
               statusMessage.textContent = "Houve um erro ao enviar o formulario. Tente novamente ou entre em contato pelo WhatsApp.";
             });
         }, 2000)
