@@ -54,6 +54,10 @@ document.addEventListener("DOMContentLoaded", function() {
 const internas = document.getElementById("internas");
 const externas = document.getElementById("externas");
 const isometricas = document.getElementById("isometricas");
+const internasMobile = document.getElementById("internas-mobile");
+const externasMobile = document.getElementById("externas-mobile");
+const isometricasMobile = document.getElementById("isometricas-mobile");
+
 const titulos = document.querySelectorAll(".titulos-portfolio");
 
 function resetButtons() {
@@ -80,9 +84,22 @@ todasBtn.addEventListener("click", function() {
     showTitulos();
     todasBtn.classList.add("bg-bege", "text-white");
 
-    internas.style.display = "block";
-    externas.style.display = "block";
-    isometricas.style.display = "block";
+    if (window.innerWidth > 768) {
+        internas.style.display = "block";
+        externas.style.display = "block";
+        isometricas.style.display = "block";
+        internasMobile.style.display = "none";
+        externasMobile.style.display = "none";
+        isometricasMobile.style.display = "none";
+    } else {
+        internas.style.display = "none";
+        externas.style.display = "none";
+        isometricas.style.display = "none";
+        internasMobile.style.display = "block";
+        externasMobile.style.display = "block";
+        isometricasMobile.style.display = "block";
+
+    }
 })
 
 internasBtn.addEventListener("click", function() {
@@ -90,10 +107,22 @@ internasBtn.addEventListener("click", function() {
     hideTitulos();
 
     internasBtn.classList.add("bg-bege", "text-white");
+    if (window.innerWidth > 768) {
+        internas.style.display = "block";
+        externas.style.display = "none";
+        isometricas.style.display = "none";
+        internasMobile.style.display = "none";
+        externasMobile.style.display = "none";
+        isometricasMobile.style.display = "none";
+    } else {
+        internas.style.display = "none";
+        externas.style.display = "none";
+        isometricas.style.display = "none";
+        internasMobile.style.display = "block";
+        externasMobile.style.display = "none";
+        isometricasMobile.style.display = "none";
 
-    internas.style.display = "block";
-    externas.style.display = "none";
-    isometricas.style.display = "none";
+    }
 })
 
 externasBtn.addEventListener("click", function() {
@@ -102,10 +131,22 @@ externasBtn.addEventListener("click", function() {
 
     externasBtn.classList.add("bg-bege", "text-white");
 
-    internas.style.display = "none";
-    externas.style.display = "block";
-    isometricas.style.display = "none";
-})
+    if (window.innerWidth > 768) {
+        internas.style.display = "none";
+        externas.style.display = "block";
+        isometricas.style.display = "none";
+        internasMobile.style.display = "none";
+        externasMobile.style.display = "none";
+        isometricasMobile.style.display = "none";
+    } else {
+        internas.style.display = "none";
+        externas.style.display = "none";
+        isometricas.style.display = "none";
+        internasMobile.style.display = "none";
+        externasMobile.style.display = "block";
+        isometricasMobile.style.display = "none";
+
+    }})
 
 isometricasBtn.addEventListener("click", function() {
     resetButtons();
@@ -113,7 +154,19 @@ isometricasBtn.addEventListener("click", function() {
 
     isometricasBtn.classList.add("bg-bege", "text-white");
 
-    internas.style.display = "none";
-    externas.style.display = "none";
-    isometricas.style.display = "block";
-})
+    if (window.innerWidth > 768) {
+        internas.style.display = "none";
+        externas.style.display = "none";
+        isometricas.style.display = "block";
+        internasMobile.style.display = "none";
+        externasMobile.style.display = "none";
+        isometricasMobile.style.display = "none";
+    } else {
+        internas.style.display = "none";
+        externas.style.display = "none";
+        isometricas.style.display = "none";
+        internasMobile.style.display = "none";
+        externasMobile.style.display = "none";
+        isometricasMobile.style.display = "block";
+
+    }})
