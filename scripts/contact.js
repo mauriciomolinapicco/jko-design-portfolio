@@ -1,9 +1,12 @@
 const form = document.getElementById('contact-form');
 const statusMessage = document.getElementById('statusMessage');
-
+const btn = document.getElementById('enviar-btn');
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
+    console.log('time')
+
+    btn.disabled = true;
 
     const formData = new FormData(form);
 
@@ -41,5 +44,6 @@ form.addEventListener('submit', function(event) {
               console.error('Erro:', error);
               statusMessage.textContent = "Houve um erro ao enviar o formulario. Tente novamente ou entre em contato pelo WhatsApp.";
             });
+        btn.disabled = false;
         }, 2000)
 })
