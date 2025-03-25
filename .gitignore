@@ -1,3 +1,6 @@
 didntMakeCut
 node_modules
 static/output.css
+scripts/contactNotMinimized.js
+scripts/indexNotMinimized.js
+scripts/portfolioNotMinimized.js
