@@ -75,3 +75,31 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.portfolio-img {
+    cursor: pointer;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    height: auto;
+}
+
+.portfolio-button {
+    border: 1px solid #444344;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    background-color: #FCFBF7;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .portfolio-button:hover {
+    background-color: #FCFBF7;
+    border-color: #FCFBF7;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }

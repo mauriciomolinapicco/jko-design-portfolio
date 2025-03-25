@@ -4,7 +4,6 @@ const btn = document.getElementById('enviar-btn');
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
-    console.log('time')
 
     btn.disabled = true;
 
